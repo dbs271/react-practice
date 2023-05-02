@@ -20,18 +20,7 @@ function App() {
         <Route path="/about" element={<About />} />
       </Routes>
       <button onClick={notify}>Click Me</button>
-      <ToastContainer
-        position="top-right"
-        autoClose={5000}
-        hideProgressBar={false}
-        newestOnTop={false}
-        closeOnClick
-        rtl={false}
-        pauseOnFocusLoss
-        draggable
-        pauseOnHover
-        theme="light"
-      />
+      <ToastContainer />
     </div>
   );
 }
